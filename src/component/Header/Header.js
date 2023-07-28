@@ -1,6 +1,6 @@
-import Concept from "./Concept";
-import keyConceptsImage from "../assets/images/key-concepts.png";
-import "../index";
+import Concept from "../Concept/Concept";
+import keyConceptsImage from "../../assets/images/key-concepts.png";
+import "../../index";
 
 function Header(props) {
   return (
@@ -10,7 +10,7 @@ function Header(props) {
         <h1>Key React Concepts</h1>
         <p>Selected key React concepts you should know about</p>
       </header>
-      <ul id="concepts">
+      {/* <ul id="concepts">
         <Concept
           title={props.items[0].title}
           image={props.items[0].image}
@@ -26,7 +26,7 @@ function Header(props) {
           image={props.items[2].image}
           description={props.items[2].description}
         />
-      </ul>
+      </ul> */}
     </div>
   );
 }

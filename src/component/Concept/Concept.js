@@ -1,4 +1,4 @@
-import "../index.css";
+import "../../index";
 
 function Concept(props) {
   return (
