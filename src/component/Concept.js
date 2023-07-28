@@ -1,6 +1,8 @@
+import "../index.css";
+
 function Concept(props) {
   return (
-    <div>
+    <div className="concept">
       <img src={props.image} alt="TODO: TITLE" />
       <h2>{props.title}</h2>
       <p>{props.description}</p>
